@@ -1,0 +1,697 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: #ffffff;
+  scrollbar-width: auto;
+  scrollbar-color: #ffffff #000000;
+  font-family: "Poppins", cursive;
+}
+
+main {
+  width: 100%;
+}
+
+*::-webkit-scrollbar {
+  width: 14px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff00;
+  width: 15px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+/* Cabeçalho */
+
+header {
+  width: 99.5vw;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(0, 88, 105, 0.492) 100%, rgba(0, 213, 255, 0.119) 100%);
+}
+
+#h1-text-header {
+  font-size: 24px;
+  font-weight: 200;
+  padding-top: 0.7%;
+}
+
+#JET-BOTE{
+  color: aqua;
+}
+
+#logo-header {
+  padding-left: 1%;
+  height: 60px;
+  width: 60px;
+  rotate: 22.5deg;
+  padding-bottom: 0.7%;
+}
+
+.social-logo {
+  height: 30px;
+  width: 30px;
+  padding-top: 0.7%;
+}
+
+#first-big-img {
+  height: 110vh;
+  width: 99.5vw;
+  border-bottom: 1px solid #ffffff;
+  
+}
+
+#three-img {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 40%, rgb(0, 45, 54) 100%, rgba(0,212,255,1) 100%);
+}
+
+.showoff-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#welcome-h1-text {
+  height: 120px;
+  width: 400px;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 62%;
+  left: 8%;
+  background-color: rgba(0, 0, 0, 0.444);
+  text-align: center;
+  border-radius: 3px;
+}
+
+#muda-cor {
+  color: aqua;
+}
+
+#loc-descrição {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: justify;
+  width: 95%;
+}
+
+#botao-do-zap {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 28px;
+  text-align: center;
+  padding-left: 10%;
+  transition: ease 0.3s;
+}
+
+#location {
+  display: flex;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#info {
+  padding-top: 3%;
+  padding-left: 3%;
+  font-weight: 700;
+  background: linear-gradient(270deg, rgba(0,0,0,1) 40%, rgb(0, 45, 54) 100%, rgba(0,212,255,1) 100%);
+}
+
+#imagem-canas {
+  width: 50%;
+}
+
+#h1-info-text {
+  font-size: 50px;
+  
+}
+
+#location-button {
+  font-size: 30px;
+  color: #ffffff;
+  background: linear-gradient(300deg, aqua, transparent) #37caff;
+  border: none;
+  border-radius: 30px;
+  font-weight: 400;
+  padding: 0.1%;
+  padding-left: 8%;
+  padding-right: 8%;
+  transition: background-color 1s;
+  transition: ease-in-out 0.3s;
+}
+
+#location-button:hover ,#location-button:focus {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #f8f9ff;
+  color: #ffffff;
+}
+
+#marcador-botao {
+  height: 25px;
+}
+
+#centralizar-botão {
+  padding-top: 7%;
+  display: flex;
+  justify-content: center;
+}
+
+#chama-no-wats {
+  font-size: 30px;
+  color: #ffffff;
+  position: absolute;
+  top: 75%;
+  left: 8%;
+  width: 400px;
+  font-weight: 300;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight:400;
+  background: linear-gradient(150deg, #00ae23, transparent) #43ec6b;
+  transition: ease-in-out 0.3s;
+}
+
+#chama-no-wats:hover, #chama-no-wats:focus {
+  background-color: #4eff36;
+  color: black;
+}
+
+#botao-do-zap:hover{
+  color: #000000;
+}
+
+#zap-do-botao {
+  padding-top: 8px;
+  height: 32px;
+  width: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+iframe {
+  padding-top: 5%;
+  border: none;
+  height: 55%;
+  width: 95%;
+}
+
+li {
+  display: flex;
+  list-style-type: none;
+  padding-top: 5%;
+  padding-right: 1%;
+}
+
+ul {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/* Sobre marina */
+
+#Quem-somos{
+  justify-content: space-between;
+  display: flex;
+
+}
+
+#h1-quem-text {
+  padding-top: 1%;
+  padding-left: 20%;
+  font-size: 50px;
+}
+
+#Sobre-marina{
+  display: flex;
+  background: linear-gradient(270deg, rgba(0,0,0,1) 40%, rgb(0, 45, 54) 100%, rgba(0,212,255,1) 100%);
+
+}
+
+#h1-quem-regras{
+  padding-top: 2%;
+  padding-left: 1%;
+  font-size: 50px;
+}
+
+#quem-somos{
+  padding: 5%;
+  font-weight: 100px;
+  font-size: 25px;
+  text-align: left;
+  width: 80%;
+  border-right: 1px solid white;
+}
+
+#quem-regras{
+  padding: 5%;
+  font-weight: 100px;
+  font-size: 25px;
+  width: 80%;
+  padding-right: 10%;
+  
+}
+
+#botao-alugar{
+  font-size: 30px;
+  color: #ffffff;
+  background: linear-gradient(300deg, aqua, transparent) #37caff;
+  border: none;
+  border-radius: 30px;
+  font-weight: 400;
+  padding: 0.1%;
+  padding-left: 8%;
+  padding-right: 8%;
+  transition: background-color 1s;
+  transition: ease-in-out 0.3s;
+}
+
+#botao-alugar:hover{
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #f8f9ff;
+  color: #ffffff;
+}
+
+#centralizar-butão {
+  padding-top: 1%;
+  display: flex;
+  padding-left: 22%;
+  padding-bottom: 2%;
+}
+
+/* Div Final */
+
+#Final {
+  background: linear-gradient(190deg, rgba(0,0,0,1) 40%, rgb(0, 45, 54) 100%, rgba(0,212,255,1) 100%);
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  height: 25vh;
+}
+
+.showoff-img-final {
+  height: 50px;
+  width: 50px;
+
+}
+
+#logo-site {
+  height: 200px;
+  width: 200px;
+  padding-top: 2%;
+  rotate: 20deg;
+}
+
+#h1-redes-final{
+  width: 200px;
+  text-align: center;
+}
+
+#redes-sociais{
+  display: block;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+/*#h1-desenvolvido-final{
+  
+}*/
+
+#contato-final{
+  padding-top: 2%;
+}
+
+#logos-final{
+  padding-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#creditos{
+  border-top: 1px solid white;
+  text-align: center;
+  font-weight: 200;
+  font-size: 10px;
+}
+
+/*@media screen and (max-width: 768px){
+  .menuzinho-site{
+    display: block;
+    width: 100vw;
+
+  }
+  
+  #first-big-img{
+    height: 50%;
+    
+  }
+  #welcome-h1-text {
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.444);
+    text-align: center;
+    border-radius: 3px;
+  }
+
+  #chama-no-wats {
+    color: #ffffff;
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    width: 300px;
+    font-weight: 300;
+    border: none;
+    border-radius: 10px;
+    font-weight:400;
+    background: linear-gradient(150deg, #00ae23, transparent) #43ec6b;
+    transition: ease-in-out 0.3s;
+    height: 45px;
+  }
+
+  #botao-do-zap{
+    font-size: 22px;
+    position: absolute;
+    top: 1%
+  }
+
+  #three-img{
+    display: none;
+  }
+
+  #location{
+    display: block;
+  }
+
+  #imagem-canas{
+    display: none;
+  }
+
+  #Sobre-marina{
+    display: block;
+  }
+
+  #quem-somos{
+    border: none;
+    text-align: justify;
+    width: 100%;
+    padding-left: 5%;
+  }
+
+  #centralizar-botão{
+    padding-bottom: 9%;
+    padding-right: 3.5%;
+  }
+
+  #botao-alugar{
+    width: 100%;
+    font-size: 25px;
+    
+  }
+
+  #centralizar-butão{
+    padding-bottom: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #h1-quem-text, #h1-quem-regras{
+    padding-left: 5%;
+  }
+
+  #Quem-regras{
+    border-top: 1px solid white;
+  }
+
+  #quem-regras{
+    width: 100%;
+    text-align: justify;
+    padding-left: 5%;
+  }
+
+  #logo-site{
+    height: 110px;
+    width: 110px;
+    padding-top: 15%;
+    padding-left: 15%;
+  }
+
+  #logo-marina, #redes-sociais, #contato-final{
+    width: 33.33%;
+  }
+
+  #h1-redes-final{
+    font-size: 16px;
+    text-align: left;
+  }
+
+  #Final{
+    height: 100%;
+  }
+
+  .showoff-img-final{
+    height: 30px;
+    width: 30px;
+
+  }
+
+  #logos-final{
+    padding-left: 15%;
+    padding-right: 20%;
+  }
+
+  #h1-contato-final{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #contato-desc{
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  #um{
+    display: none;
+  }
+  
+  #dois{
+    position: absolute;
+    right: 0.5%;
+    top: 2%
+  }
+
+  li{
+    display: block;
+  }
+
+}*/
+
+/* Add the following CSS for responsive design */
+
+/* Common styles for smaller screens */
+@media screen and (max-width: 1024px)
+  and (min-device-width: 320px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #um {
+    display: none;
+  }
+
+  #dois {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  #h1-text-header {
+    font-size: 18px;
+  }
+
+  #logo-header {
+    padding-left: 0;
+    height: 40px;
+    width: 40px;
+  }
+
+  .social-logo {
+    height: 25px;
+    width: 25px;
+  }
+
+  #first-big-img {
+    height: 50vh;
+  }
+
+  #three-img {
+    display: none;
+  }
+
+  #welcome-h1-text {
+    height: auto;
+    width: 80%;
+    font-size: 30px;
+    top: 36%;
+    left: 10%;
+  
+  }
+
+  #chama-no-wats {
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 30px;
+    padding-top: 7%;
+    display: none;
+  }
+
+  #botao-do-zap {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+    display: none;
+  }
+
+  #location {
+    flex-direction: column;
+  }
+
+  #imagem-canas {
+    display: none;
+  }
+
+  #info {
+    width: 100%;
+    padding: 3% 5%;
+  }
+
+  #h1-info-text {
+    font-size: 30px;
+  }
+
+  iframe {
+    padding-top: 3%;
+    height: 40%;
+  }
+
+  #centralizar-botão {
+    padding-top: 5%;
+  }
+
+  #Sobre-marina {
+    flex-direction: column;
+  }
+
+  #h1-quem-text,
+  #h1-quem-regras {
+    padding-left: 5%;
+    border-top: 1px solid #f8f9ff;
+  }
+
+  #quem-somos,
+  #quem-regras {
+    width: 100%;
+    border-right: none;
+    padding-right: 5%;
+    text-align: justify;
+  }
+
+  #centralizar-butão {
+    padding-bottom: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #botao-alugar {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  #Final {
+    height: auto;
+    flex-direction: column;
+  }
+
+  #logo-site {
+    height: 80px;
+    width: 80px;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  #redes-sociais,
+  #contato-final {
+    width: 100%;
+    text-align: center;
+  }
+
+  #logos-final {
+    padding-top: 1%;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  #h1-contato-final {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #contato-desc {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #h1-redes-final{
+    font-size: 20px;
+    width: 100%;
+  }
+
+  #logo-marina{
+    text-align: center;
+    
+  }
+}
+
+
+
+  
