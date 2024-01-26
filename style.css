@@ -363,167 +363,13 @@ ul {
   font-size: 10px;
 }
 
-/*@media screen and (max-width: 768px){
-  .menuzinho-site{
-    display: block;
-    width: 100vw;
-
-  }
-  
-  #first-big-img{
-    height: 50%;
-    
-  }
-  #welcome-h1-text {
-    height: 100px;
-    width: 300px;
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    top: 22%;
-    left: 10%;
-    background-color: rgba(0, 0, 0, 0.444);
-    text-align: center;
-    border-radius: 3px;
-  }
-
-  #chama-no-wats {
-    color: #ffffff;
-    position: absolute;
-    top: 38%;
-    left: 10%;
-    width: 300px;
-    font-weight: 300;
-    border: none;
-    border-radius: 10px;
-    font-weight:400;
-    background: linear-gradient(150deg, #00ae23, transparent) #43ec6b;
-    transition: ease-in-out 0.3s;
-    height: 45px;
-  }
-
-  #botao-do-zap{
-    font-size: 22px;
-    position: absolute;
-    top: 1%
-  }
-
-  #three-img{
-    display: none;
-  }
-
-  #location{
-    display: block;
-  }
-
-  #imagem-canas{
-    display: none;
-  }
-
-  #Sobre-marina{
-    display: block;
-  }
-
-  #quem-somos{
-    border: none;
-    text-align: justify;
-    width: 100%;
-    padding-left: 5%;
-  }
-
-  #centralizar-botão{
-    padding-bottom: 9%;
-    padding-right: 3.5%;
-  }
-
-  #botao-alugar{
-    width: 100%;
-    font-size: 25px;
-    
-  }
-
-  #centralizar-butão{
-    padding-bottom: 6%;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  #h1-quem-text, #h1-quem-regras{
-    padding-left: 5%;
-  }
-
-  #Quem-regras{
-    border-top: 1px solid white;
-  }
-
-  #quem-regras{
-    width: 100%;
-    text-align: justify;
-    padding-left: 5%;
-  }
-
-  #logo-site{
-    height: 110px;
-    width: 110px;
-    padding-top: 15%;
-    padding-left: 15%;
-  }
-
-  #logo-marina, #redes-sociais, #contato-final{
-    width: 33.33%;
-  }
-
-  #h1-redes-final{
-    font-size: 16px;
-    text-align: left;
-  }
-
-  #Final{
-    height: 100%;
-  }
-
-  .showoff-img-final{
-    height: 30px;
-    width: 30px;
-
-  }
-
-  #logos-final{
-    padding-left: 15%;
-    padding-right: 20%;
-  }
-
-  #h1-contato-final{
-    font-size: 16px;
-    text-align: center;
-  }
-
-  #contato-desc{
-    font-size: 12px;
-    text-align: center;
-  }
-  
-  #um{
-    display: none;
-  }
-  
-  #dois{
-    position: absolute;
-    right: 0.5%;
-    top: 2%
-  }
-
-  li{
-    display: block;
-  }
-
-}*/
-
-/* Add the following CSS for responsive design */
+#contato-desc {
+  color: rgb(255, 255, 255);
+}
 
 /* Common styles for smaller screens */
-@media screen and (max-width: 1024px)
-  and (min-device-width: 320px) {
+@media screen and (max-width: 1364px)
+  and (min-device-width: 280px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -563,7 +409,13 @@ ul {
   }
 
   #three-img {
-    display: none;
+    display: block;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 40%, rgb(0, 45, 54) 100%, rgba(0,212,255,1) 100%);
+  }
+
+  .showoff-img{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 40%, rgb(0, 45, 54) 100%, rgba(0,212,255,1) 100%);
   }
 
   #welcome-h1-text {
@@ -679,6 +531,7 @@ ul {
   #contato-desc {
     font-size: 14px;
     text-align: center;
+    color: white;
   }
 
   #h1-redes-final{
